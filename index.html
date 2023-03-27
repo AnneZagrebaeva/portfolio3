@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="open" onclick="show()"> 	&#9776;
+
+        </div>
+
+        <div class="menu">
+
+            <div class="close" onclick="hide()">
+            x
+            </div>
+
+            <div>
+
+            <div class="links">
+                <a href="#2">Skills</a>
+              
+            </div>
+            <div class="links">
+                <a href="#3">Works</a>
+            
+            </div>
+            <div class="links">
+                <a href="#1">Contact</a>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+   
+
+    <div class="main">
+        <div class="anna">
+            <img src="img/anna.png" alt="">
+        </div>
+        <div class="hello">
+            Hello! I`m Anna,
+            Web developer. <br>
+            <a href="#1">Contact me</a>
+        
+        </div>
+    </div>
+        <h2>My Skills </h2>
+    <div class="skills" id="2">
+       
+        <img src="img/html.png" alt="">
+        <img src="img/css.png" alt="">
+    </div>
+    <h2> My works</h2>
+    <div class="works" id="3">
+        
+        <div class="art">
+            <a href="https://annezagrebaeva.github.io/Art-gallery-mobile/" target="_blank"> <img src="img/museum.png" alt=""></a>
+            <h3>Art gallery</h3>
+        </div>
+        <div class="apartment">
+            
+            <a href="https://annezagrebaeva.github.io/landing/" target="_blank">
+                <img src="img/home.png" alt="">
+            </a>
+            <h3>Apartment</h3>
+        </div>
+    </div>
+        <div id="1" class="contacts">
+          Phone +79168039092 <br>
+            
+           E-mail aazagrebaeva@gmail.com <br>
+          
+           Telegram @Zagreb9
+            
+        </div>
+    
+
+            
+    
+    
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+
+<script>
+    function show() {
+    $('.menu').css('right','0')
+    }
+
+    function hide() {
+    $('.menu').css('right','-200px')
+    }
+
+</script>
